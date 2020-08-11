@@ -1,0 +1,6 @@
+- name: My test playbook
+  hosts: all
+  user: root
+
+  roles:
+    - common
