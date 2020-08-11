@@ -31,6 +31,7 @@
       groups:
         - sudo
         - docker
+        
 - name: add ssh key
   authorized_key:
       user: streetstorm
